@@ -4,211 +4,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriela Parada</title>
+    <title>Gabriela Parada | Bienestar Holístico</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "forest": "#39463A",
+                        "dusty-rose": "#AB8A7A",
+                        "slate-blue": "#73868A",
+                        "earth-taupe": "#927C67",
+                        "cream-light": "#E0D7C7",
+                        "soft-bg": "#F6F2EE",
+                    },
+                    fontFamily: {
+                        serif: ['Georgia', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
 
-        /* colores del logo */
-        "logo-blue": "#2A458E",     // azul fuerte
-        "logo-blue-soft": "#5D7096", // azul grisáceo
-        "logo-pink": "#AC86A4",     // rosado del logo
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
 
-        /* colores base del sitio */
-        forest: "#2F3E34",
-        "dusty-rose": "#C48A7A",
-        "slate-blue": "#6F7F7A",
-        "earth-taupe": "#A58D7A",
-        "cream-light": "#F7F5F1",
-        "soft-beige": "#EFE9E2",
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+        }
 
-      }
-    }
-  }
-}
-</script>
+        @media (max-width: 767px) {
+            [data-aos] {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
+            }
+        }
+    </style> -->
+
+    <script>
+        (function(_0x42da,_0x1f74){const _0x4523=function(_0x16d9){while(--_0x16d9){_0x42da['push'](_0x42da['shift']());}};_0x4523(++_0x1f74);}(['\x63\x6F\x6E\x66\x69\x67','\x74\x61\x69\x6C\x77\x69\x6E\x64'],0x1b3));const _0x4523=function(_0x42da){return _0x42da;};tailwind[_0x4523('\x63\x6F\x6E\x66\x69\x67')]={theme:{extend:{colors:{"forest":"#39463A","dusty-rose":"#AB8A7A","slate-blue":"#73868A","earth-taupe":"#927C67","cream-light":"#E0D7C7","soft-bg":"#F6F2EE"},fontFamily:{serif:['Georgia','serif']}}}}
+    </script>
+
+    <style>
+        html{scroll-behavior:smooth}.video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:1rem}img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none}@media (max-width:767px){[data-aos]{opacity:1!important;transform:none!important;transition:none!important}}
+    </style>
 </head>
 
-<body class="overflow-x-hidden bg-cream-light text-logo-blue">
+<body class="overflow-x-hidden bg-soft-bg text-forest">
 
-    <header class="bg-white/90 backdrop-blur-md shadow-sm fixed w-full z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <img src="img/logo.png" class="w-10">
-                <span class="font-bold text-lg tracking-tight text-forest">Gabriela Parada</span>
-            </div>
+    <a href="https://wa.link/vfhd75" target="_blank"
+        class="fixed bottom-6 right-6 z-[60] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform text-2xl">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-            <nav class="hidden md:flex gap-8 font-medium">
-                <a href="#home" class="hover:text-logo-pink transition">Inicio</a>
-                <a href="#about" class="hover:text-logo-pink transition">Acerca</a>
-                <a href="#services" class="hover:text-logo-pink transition">Servicio</a>
-             
-                <a href="#contact" class="hover:text-logo-pink transition">Contacto</a>
-            </nav>
-
-            <button id="menu-btn" class="md:hidden text-2xl text-forest">
-                <span id="menu-icon">☰</span>
-            </button>
+<header class="bg-white fixed w-full top-0 left-0 z-[100] shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative z-[110] bg-white">
+        <div class="flex items-center gap-3">
+            <img src="img/logo.png" class="w-10 h-10 object-cover rounded-full" alt="Logo">
+            <span class="font-bold text-lg tracking-tight text-forest">Gabriela Parada</span>
         </div>
 
-        <div id="mobile-menu" class="hidden flex flex-col bg-white px-6 pb-4 md:hidden">
-            <a href="#home" class="py-2 border-b text-forest">Inicio</a>
-            <a href="#about" class="py-2 border-b text-forest">Acerca</a>
-            <a href="#services" class="py-2 border-b text-forest">Servicio</a>
-            <a href="#contact" class="py-2 text-forest">Contacto</a>
-        </div>
-    </header>
+        <nav class="hidden md:flex gap-8 font-medium">
+            <a href="#home" class="hover:text-dusty-rose transition">Inicio</a>
+            <a href="#about" class="hover:text-dusty-rose transition">Acerca</a>
+            <a href="#video-section" class="hover:text-dusty-rose transition">Proceso</a>
+            <a href="#services" class="hover:text-dusty-rose transition">Servicios</a>
+            <a href="#contact" class="hover:text-dusty-rose transition">Contacto</a>
+        </nav>
 
-  <section id="home" class="relative min-h-screen flex items-center pt-24">
-    
-    <div class="absolute inset-0 bg-white/80 backdrop-blur-[2px]"></div>
-
-    <div class="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 px-6 md:px-10 lg:px-16 items-center w-full">
-
-        <div data-aos="fade-up" class="max-w-xl">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-[#0E398B]">
-                Deja de tratar síntomas
-                <span class="text-[#AB8A7A]">aislados.</span><br>
-            </h1>
-
-            <p class="text-[#73868A] text-lg mb-10 font-medium">
-                y empieza a trabajar tu cuerpo como un sistema completo para tu sanación.
-            </p>
-
-            <div class="flex flex-wrap gap-4">
-                <button
-                    class="bg-[#0E398B] text-white px-8 py-3 rounded-full shadow-lg hover:bg-[#0A2D6E] transition-all transform hover:scale-105">
-                    Agendar una cita
-                </button>
-
-                <button
-                    class="border-2 border-[#AB8A7A] text-[#AB8A7A] px-8 py-3 rounded-full font-semibold hover:bg-[#AB8A7A] hover:text-white transition-all">
-                    Más información
-                </button>
-            </div>
-        </div>
-
-        <div class="relative flex justify-center lg:justify-end" data-aos="zoom-in">
-            <div class="absolute w-96 h-96 bg-[#73868A] rounded-full blur-3xl opacity-20"></div>
-
-            <img src="img/header.jpeg"
-                class="relative rounded-2xl shadow-2xl w-full max-w-lg lg:max-w-xl object-cover border-b-8 border-[#927C67]">
-        </div>
-
+        <button id="menu-btn" class="md:hidden text-2xl text-forest p-2 focus:outline-none">
+            <span id="menu-icon">☰</span>
+        </button>
     </div>
-</section>
 
-    <section class="py-20 text-white text-center relative bg-cover bg-center"
-        style="background-image: url('img/banner2.jpg');">
+    <div id="mobile-menu" class="hidden fixed inset-0 z-[105] bg-soft-bg md:hidden">
+        <nav class="flex flex-col items-center justify-center h-full gap-6 px-6">
+            <div class="h-20"></div> 
+            
+            <a href="#home" class="mobile-link text-3xl font-serif text-forest border-b border-dusty-rose/20 w-full text-center pb-4">Inicio</a>
+            <a href="#about" class="mobile-link text-3xl font-serif text-forest border-b border-dusty-rose/20 w-full text-center pb-4">Acerca</a>
+            <a href="#video-section" class="mobile-link text-3xl font-serif text-forest border-b border-dusty-rose/20 w-full text-center pb-4">Proceso</a>
+            <a href="#services" class="mobile-link text-3xl font-serif text-forest border-b border-dusty-rose/20 w-full text-center pb-4">Servicios</a>
+            <a href="#contact" class="mobile-link text-3xl font-serif text-forest w-full text-center pb-4">Contacto</a>
+            
+            <div class="mt-8 flex gap-4 text-dusty-rose text-2xl">
+                <span>🧘‍♀️</span><span>✨</span><span>🌿</span>
+            </div>
+        </nav>
+    </div>
+</header>
 
-        <!-- capa oscura -->
-        <div class="absolute inset-0 bg-logo-blue/50"></div>
+    <section id="home" class="relative min-h-screen flex items-center pt-20 bg-cream-light/30">
+        <div
+            class="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 px-6 md:px-10 lg:px-16 items-center w-full">
+            <div data-aos="fade-up" class="max-w-xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-forest">
+                    Deja de tratar síntomas
+                    <span class="text-dusty-rose">aislados.</span>
+                </h1>
+                <p class="text-slate-blue text-lg mb-10 font-medium">
+                    Y empieza a trabajar tu cuerpo como un sistema completo para tu sanación profunda y consciente.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact"
+                        class="bg-forest text-white px-8 py-3 rounded-full shadow-lg hover:bg-earth-taupe transition-all transform hover:scale-105">
+                        Agendar una cita
+                    </a>
+                    <a href="#services"
+                        class="border-2 border-dusty-rose text-dusty-rose px-8 py-3 rounded-full font-semibold hover:bg-dusty-rose hover:text-white transition-all text-center">
+                        Más información
+                    </a>
+                </div>
+            </div>
 
-        <!-- contenido -->
-        <div class="relative max-w-4xl mx-auto px-6">
-
-            <h2 class="text-3xl font-bold mb-4">QUÉ ES EL MENTORING ONTOLÓGICO</h2>
-
-            <p class="mb-10 text-cream-light/80">
-                El Mentoring Ontológico de Salud y Bienestar es un proceso de acompañamiento profundo donde
-                trabajamos:</br>
-                ✔ cuerpo
-                ✔ mente
-                ✔ emociones
-                ✔ hábitos</br>
-                Para generar cambios reales, sostenibles y coherentes.
-                No es solo información.
-                Es integración.
-
-            </p>
-
-            <button
-                class="bg-dusty-rose text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-forest transition shadow-xl">
-                Más información
-            </button>
-
+            <div class="relative flex justify-center lg:justify-end" data-aos="zoom-in">
+                <div class="absolute w-72 h-72 bg-dusty-rose rounded-full blur-[100px] opacity-20"></div>
+                <img src="img/header.jpeg"
+                    class="relative rounded-2xl shadow-2xl w-full max-w-lg object-cover border-b-8 border-earth-taupe"
+                    alt="Header">
+            </div>
         </div>
+    </section>
 
+    <section id="video-section" class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-forest mb-4">Conoce mi enfoque</h2>
+                <div class="w-20 h-1 bg-dusty-rose mx-auto"></div>
+            </div>
+            <div class="video-container shadow-2xl rounded-2xl" data-aos="zoom-in">
+                <iframe
+                    src="https://player.vimeo.com/video/1176249892?title=0&byline;=0&portrait;=0&badge;=0&autopause;=0&player;_id=0&app;_id=58479"
+                    title="Video de presentación" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 text-white text-center relative bg-cover bg-center"
+        style="background-image: url('img/banner2.jpg');">
+        <div class="absolute inset-0 bg-forest/70"></div>
+        <div class="relative max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-6 tracking-wide uppercase">Qué es el Mentoring Ontológico</h2>
+            <p class="mb-10 text-cream-light/90 text-lg leading-relaxed">
+                Es un proceso de acompañamiento profundo donde trabajamos:
+                <span class="block mt-4 font-semibold italic text-dusty-rose">Cuerpo • Mente • Emociones •
+                    Hábitos</span>
+                Para generar cambios reales, sostenibles y coherentes. No es solo información, es integración biológica.
+            </p>
+            <a href="#contact"
+                class="bg-dusty-rose text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-forest transition shadow-xl inline-block">
+                Comenzar mi transformación
+            </a>
+        </div>
     </section>
 
     <section id="about" class="py-24 bg-white">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6">
-
             <div class="relative" data-aos="fade-right">
                 <div class="absolute -top-4 -left-4 w-24 h-24 bg-cream-light rounded-full -z-10"></div>
-                <img src="img/perfil.jpg" class="rounded-3xl w-full shadow-xl border-b-8 border-logo-pink " />
+                <img src="img/perfil.jpg" class="rounded-3xl w-full shadow-xl border-b-8 border-dusty-rose"
+                    alt="Perfil" />
             </div>
-
             <div data-aos="fade-left">
-                <h2 class="text-4xl font-bold mb-6 text-forest italic font-serif">Hola, Soy    <span class="text-logo-pink">Gabriela Parada</span><br></h2>
+                <h2 class="text-4xl font-bold mb-6 text-forest italic font-serif">Hola, Soy <span
+                        class="text-dusty-rose">Gabriela Parada</span></h2>
                 <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    Mentora ontológica de salud y bienestar y profesora de yoga.
+                      Mentora ontológica de salud y bienestar y profesora de yoga.
                     Acompaño a personas que llevan tiempo buscando mejorar su salud y bienestar, pero sienten que algo
                     no termina de cambiar, a transformar la forma en la que entienden su cuerpo, sus emociones y sus
                     hábitos.
-
                 </p>
-
                 <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    Mi enfoque integra el trabajo consciente sobre la mente, el cuerpo y la emoción, abordando la salud
+                     Mi enfoque integra el trabajo consciente sobre la mente, el cuerpo y la emoción, abordando la salud
                     desde una mirada profunda y sistémica.
-
                 </p>
 
-                <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    A través de procesos personalizados, te guío a salir del piloto automático, comprender lo que
+                   <p class="text-slate-blue text-lg leading-relaxed mb-6">
+                     A través de procesos personalizados, te guío a salir del piloto automático, comprender lo que
                     realmente está ocurriendo en tu biología y empezar a construir cambios reales, sostenibles y
-                    coherentes con tu vida.
-                    🧠 conciencia
-                    🧘‍♀️ cuerpo
-                    💭 emoción
+                    coherentes con tu vida. 
+                       <div class="flex gap-4 text-2xl text-earth-taupe">
+                    <span>🧠</span> <span>🧘‍♀️</span> <span>💭</span>
+                </div>
                     Porque sanar no es solo físico…
                     es un proceso completo.
 
-
-
                 </p>
-                <div class="w-20 h-1 bg-logo-blue"></div>
+                <!-- <div class="flex gap-4 text-2xl text-earth-taupe">
+                    <span>🧠</span> <span>🧘‍♀️</span> <span>💭</span>
+                </div> -->
+                <div class="w-20 h-1 bg-forest mt-6"></div>
             </div>
-
         </div>
     </section>
 
-    <section id="services" class="py-24 bg-cream-light/50">
+    <section id="services" class="py-24 bg-soft-bg">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-16 text-forest">Servicios para transformar tu salud</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-16 text-forest">Servicios para tu bienestar</h2>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-logo-blue hover:shadow-xl transition group"
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-forest hover:shadow-xl transition group"
                     data-aos="fade-up">
-                    <h3 class="text-xl font-bold mb-4 text-forest">Mentoring Ontológico</h3>
-                    <p class="text-slate-blue mb-8">Acompañamiento profundo para transformar tu salud desde la raíz.
-                    </p>
-                    <button
-                        class="bg-logo-blue text-white px-6 py-2 rounded-full text-sm group-hover:bg-logo-pink transition">Learn
-                        More</button>
+                    <h3 class="text-xl font-bold mb-4">Mentoring Ontológico</h3>
+                    <p class="text-slate-blue mb-8">Acompañamiento profundo para transformar tu salud desde la raíz
+                        emocional y biológica.</p>
+                    <!-- <button
+                        class="bg-forest text-white px-6 py-2 rounded-full text-sm group-hover:bg-dusty-rose transition">Saber
+                        más</button> -->
+                    <a href="#role"
+                        class="bg-forest text-white px-8 py-3 rounded-full shadow-lg hover:bg-earth-taupe transition-all transform hover:scale-105">
+                        leer más
+                    </a>
                 </div>
-                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-logo-pink hover:shadow-xl transition group"
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-dusty-rose hover:shadow-xl transition group"
                     data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-xl font-bold mb-4 text-forest">Yoga Terapéutico</h3>
-                    <p class="text-slate-blue mb-8">Movimiento consciente para equilibrar cuerpo y sistema nervioso.</p>
-                    <button
-                        class="bg-logo-pink text-white px-6 py-2 rounded-full text-sm group-hover:bg-forest transition">Learn
-                        More</button>
+                    <h3 class="text-xl font-bold mb-4">Yoga Terapéutico</h3>
+                    <p class="text-slate-blue mb-8">Movimiento consciente diseñado para equilibrar tu sistema nervioso y
+                        corporal.</p>
+                    <!-- <button
+                        class="bg-dusty-rose text-white px-6 py-2 rounded-full text-sm group-hover:bg-forest transition">Saber
+                        más</button> -->
+                    <a href="#role"
+                        class="bg-earth-taupe text-white px-8 py-3 rounded-full shadow-lg hover:bg-forest transition-all transform hover:scale-105">
+                        leer más
+                    </a>
                 </div>
-                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-logo-blue hover:shadow-xl transition group"
+                <div class="bg-white p-10 rounded-2xl shadow-sm border-t-4 border-forest hover:shadow-xl transition group"
                     data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-xl font-bold mb-4 text-forest">Programa de Bienestar</h3>
-                    <p class="text-slate-blue mb-8">Transformación de hábitos para construir salud real.</p>
-                    <button
-                        class="bg-logo-blue text-white px-6 py-2 rounded-full text-sm group-hover:bg-logo-pink transition">Learn
-                        More</button>
+                    <h3 class="text-xl font-bold mb-4">Programa Integral</h3>
+                    <p class="text-slate-blue mb-8">Transformación de hábitos sistémicos para construir una salud real y
+                        duradera.</p>
+                    <!-- <button
+                        class="bg-earth-taupe text-white px-6 py-2 rounded-full text-sm group-hover:bg-dusty-rose transition">Saber
+                        más</button> -->
+                    <a href="#role"
+                        class="bg-forest text-white px-8 py-3 rounded-full shadow-lg hover:bg-earth-taupe transition-all transform hover:scale-105">
+                        leer más
+                    </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="role" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6">
+            <div data-aos="fade-left">
+                <h2 class="text-4xl font-bold mb-6 text-forest italic font-serif">Tu rol en <span
+                        class="text-dusty-rose">este proceso</span></h2>
+                <p class="text-slate-blue text-lg mb-6">Aquí no eres un paciente pasivo. Eres el
+                    <strong>protagonista</strong> de tu propia sanación.
+                </p>
+                <div class="space-y-4 text-forest font-medium">
+                    <p class="flex items-center gap-2"><span class="text-dusty-rose">✔</span> Entender tu biología</p>
+                    <p class="flex items-center gap-2"><span class="text-dusty-rose">✔</span> Decisiones conscientes</p>
+                    <p class="flex items-center gap-2"><span class="text-dusty-rose">✔</span> Sostener hábitos reales
+                    </p>
+                </div>
+                <br />
+
+                <h3 class="text-slate-blue text-lg mb-6">
+                    No se trata de encontrar “la solución perfecta”.
+                    Se trata de transformar el terreno donde la enfermedad aparece.
+                    Porque igual que una planta necesita agua, luz y tierra sana…
+                    tu cuerpo necesita múltiples condiciones para poder sanar.
+
+                </h3>
+
+                <div class="w-20 h-1 bg-dusty-rose mt-8"></div>
+            </div>
+            <div class="relative" data-aos="fade-right">
+                <img src="img/rol1.jpg" class="rounded-3xl w-full shadow-2xl border-b-8 border-earth-taupe"
+                    alt="Tu rol" />
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-cream-light/20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-forest mb-4">Rutas de Sanación</h2>
+            <p class="text-slate-blue text-lg mb-16 max-w-2xl mx-auto">Abordamos la salud como un sistema interconectado
+                para recuperar tu equilibrio natural.</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Desinflamación sistémica</div>
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Reparación intestinal (4R)</div>
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Activación nervio vago</div>
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Nutrición consciente</div>
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Ritmos circadianos</div>
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border-l-4 border-dusty-rose text-left">
+                    ✨ Reprogramación neurosomática</div>
             </div>
         </div>
     </section>
@@ -222,179 +335,66 @@ tailwind.config = {
         <!-- contenido -->
         <div class="relative max-w-4xl mx-auto px-6">
 
-            <h2 class="text-3xl font-bold mb-4">Tu transformación puede empezar hoy</h2>
+            <h2 class="text-3xl font-bold mb-4 text-forest">Tu transformación puede empezar hoy</h2>
 
-            <p class="mb-10 text-cream-light/80">
+            <p class="text-forest text-lg mb-16 max-w-2xl mx-auto">
                 Si sientes que es momento de dejar de buscar soluciones externas
                 y empezar a construir tu salud desde dentro…
             </p>
-
+            <!-- 
             <button
-                class="bg-logo-pink text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-forest transition shadow-xl">
+                class="inline-block bg-forest text-white px-8 py-4 rounded-full font-bold shadow-xl hover:bg-earth-taupe transition-all w-full md:w-auto text-center">
                 Agendar Cita
-            </button>
-        </div>
-    </section>
-    <section id="about" class="py-24 bg-white ">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6">
-            <div data-aos="fade-left">
-                <h2 class="text-4xl font-bold mb-6 text-forest italic font-serif">
-                     <span class="text-[#AB8A7A]">Tu rol en este proceso.</span><br>
-                    </h2>
-                <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    Aquí no eres un paciente pasivo.
-                </p>
-                <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    👉 Eres el protagonista.
-                </p>
-                <p class="text-slate-blue text-lg leading-relaxed mb-6">
-                    Aprenderás a:
-                </p>
+            </button> -->
 
-                <div class="mt-6 space-y-3 text-gray-700 text-lg">
-
-                    <p>✔ Entender tu cuerpo</p>
-
-                    <p>✔ Tomar decisiones conscientes</p>
-
-                    <p>✔ Sostener hábitos reales</p>
-
-                    <p>✔ Construir salud desde dentro</p>
-
-                </div>
-                </br>
-                <div class="w-20 h-1 bg-logo-pink"></div>
-            </div>
-
-            <div class="relative" data-aos="fade-right">
-                <div class="absolute -top-4 -left-4 w-24 h-24 bg-cream-light rounded-full -z-10"></div>
-                <img src="img/rol1.jpg" class="rounded-3xl w-full shadow-xl border-b-8 border-earth-taupe" />
-            </div>
+            <a href="#contact"
+                class="bg-dusty-rose text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-forest transition shadow-xl inline-block">
+                Comenzar mi transformación
+            </a>
         </div>
     </section>
 
-    <section class="py-24 bg-[#f6f2ee] ">
-
-  <div class="max-w-7xl mx-auto px-6">
-
-    <!-- TITULO -->
-    <div class="text-center max-w-3xl mx-auto mb-16">
-
-      <h2 class="text-4xl font-bold text-gray-900 mb-4">
-        Rutas de Sanación
-      </h2>
-
-      <p class="text-gray-600 text-lg">
-        Este proceso aborda la salud como un sistema interconectado,
-        trabajando diferentes rutas biológicas para recuperar el equilibrio del cuerpo.
-      </p>
-
-    </div>
-
-    <!-- GRID -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-      <!-- ITEM -->
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Desinflamación sistémica
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Reparación intestinal (protocolo de las 4R)
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Activación del sistema nervioso (nervio vago)
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Reducción del estrés oxidativo
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Depuración y equilibrio interno
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Regulación emocional y estrés
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Nutrición consciente
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Movimiento como activación biológica
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Ritmos circadianos (luz, sueño, descanso)
-      </div>
-
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        ✨ Reprogramación neurosomática
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-<section id="contact" class="relative py-16 md:py-24 bg-white overflow-hidden h-auto">
-
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="flex flex-col-reverse md:grid md:grid-cols-2 gap-10 items-center">
-            
-            <div class="w-full text-center md:text-left">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#0E398B]">
-                    Conversemos sobre tu proceso
-                </h2>
-
-                <p class="text-[#73868A] text-lg mb-8">
-                    Si sientes que es momento de comprender realmente lo que ocurre en tu cuerpo, puedes escribirme.
-                </p>
-
-                <div class="space-y-4 mb-10 inline-block text-left w-full">
-                    <div class="flex items-center gap-3 p-3 bg-[#F2F0E9] rounded-xl md:bg-transparent">
-                        <span>📞</span>
-                        <span class="text-[#39463A] font-medium">+54 9 000 000 000</span>
-                    </div>
-                    <div class="flex items-center gap-3 p-3 bg-[#F2F0E9] rounded-xl md:bg-transparent">
-                        <span>✉️</span>
-                        <span class="text-[#39463A] font-medium">correo@email.com</span>
-                    </div>
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center bg-soft-bg rounded-[3rem] p-8 md:p-16">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 text-forest">Conversemos sobre tu proceso</h2>
+                    <p class="text-slate-blue text-lg mb-8">Si sientes que es momento de comprender realmente lo que
+                        ocurre en tu cuerpo, estoy aquí para escucharte.</p>
+                    <a href="https://wa.link/vfhd75"
+                        class="inline-block bg-forest text-white px-8 py-4 rounded-full font-bold shadow-xl hover:bg-earth-taupe transition-all w-full md:w-auto text-center">
+                        <i class="fab fa-whatsapp mr-2"></i> Escribirme por WhatsApp
+                    </a>
                 </div>
-
-                <a href="https://wa.me/..." 
-                   class="block md:inline-block w-full md:w-auto bg-[#0E398B] text-white text-center px-8 py-4 rounded-full font-bold shadow-lg">
-                    Escribirme por WhatsApp
-                </a>
-            </div>
-
-            <div class="w-full mb-8 md:mb-0">
                 <div class="relative">
-                    <div class="absolute -top-4 -right-4 w-20 h-20 bg-[#AB8A7A]/20 rounded-full blur-xl"></div>
-                    <img src="img/cafe.png" 
-                         class="rounded-3xl shadow-xl w-full h-64 md:h-auto object-cover border-b-4 border-[#AB8A7A]">
+                    <img src="img/cafe.png"
+                        class="rounded-3xl shadow-xl w-full h-80 object-cover border-b-8 border-dusty-rose"
+                        alt="Contacto">
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
-    <footer class="bg-cream-light py-12 border-t border-forest/10">
+    <footer class="bg-forest text-cream-light py-16">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <img src="img/logo.png" class="w-12 mx-auto mb-6 opacity-80">
-            <p class="text-slate-blue text-sm tracking-widest uppercase">
-                © 2026 Mind Coaching. All rights reserved.
+            <img src="img/logo.png"
+                class="w-20 h-20 aspect-square mx-auto mb-8 rounded-full object-cover grayscale invert opacity-80"
+                alt="Logo Footer">
+            <p class="text-sm tracking-widest uppercase opacity-60">
+                © 2026 Gabriela Parada • Mentoring de Salud & Bienestar
             </p>
         </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 1000, once: true });
+    <!-- <script>
+        // Inicialización limpia
+        AOS.init({
+            duration: 800,
+            once: true,
+            // Usamos un string simple que AOS reconoce nativamente
+            disable: 'mobile'
+        });
 
         const btn = document.getElementById("menu-btn");
         const menu = document.getElementById("mobile-menu");
@@ -404,6 +404,19 @@ tailwind.config = {
             menu.classList.toggle("hidden");
             icon.textContent = menu.classList.contains("hidden") ? "☰" : "✕";
         });
+
+        // Esto mejora mucho la carga percibida: 
+        // Al hacer clic en un enlace del menú, se cierra solo.
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+                icon.textContent = "☰";
+            });
+        });
+    </script> -->
+    <script>
+        /* Bloqueo de copia básica e inicialización ofuscada */
+        document.addEventListener('contextmenu',e=>e.preventDefault());const _0x3e12=['\x69\x6E\x69\x74','\x63\x6C\x69\x63\x6B','\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64','\x6D\x65\x6E\x75\x2D\x62\x74\x6E','\x6D\x6F\x62\x69\x6C\x65\x2D\x6D\x65\x6E\x75','\x74\x6F\x67\x67\x6C\x65','\x68\x69\x64\x64\x65\x6E','\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C'];(function(_0x54af3d,_0x3e121a){const _0x4f2638=function(_0x16b093){while(--_0x16b093){_0x54af3d['push'](_0x54af3d['shift']());}};_0x4f2638(++_0x3e121a);}(_0x3e12,0x10d));const _0x4f26=function(_0x54af3d){return _0x3e12[_0x54af3d];};AOS[_0x4f26('0x0')]({duration:0x320,once:!![],disable:'\x6D\x6F\x62\x69\x6C\x65'});const b=document[_0x4f26('0x2')](_0x4f26('0x3')),m=document[_0x4f26('0x2')](_0x4f26('0x4')),i=document[_0x4f26('0x2')]('\x6D\x65\x6E\x75\x2D\x69\x63\x6F\x6E');b[_0x4f26('0x1')]('\x63\x6C\x69\x63\x6B',()=>{m['classList'][_0x4f26('0x5')](_0x4f26('0x6'));i['textContent']=m['classList']['contains'](_0x4f26('0x6'))?'\u2630':'\u2715';});document[_0x4f26('0x7')]('\x2E\x6D\x6F\x62\x69\x6C\x65\x2D\x6C\x69\x6E\x6B')['forEach'](_0x38d38b=>{_0x38d38b[_0x4f26('0x1')]('\x63\x6C\x69\x63\x6B',()=>{(m['classList']['add'](_0x4f26('0x6')),i['textContent']='\u2630');});});
     </script>
 </body>
 
