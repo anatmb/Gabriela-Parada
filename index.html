@@ -10,65 +10,28 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        "forest": "#39463A",
-                        "dusty-rose": "#AB8A7A",
-                        "slate-blue": "#73868A",
-                        "earth-taupe": "#927C67",
-                        "cream-light": "#E0D7C7",
-                        "soft-bg": "#F6F2EE",
-                    },
-                    fontFamily: {
-                        serif: ['Georgia', 'serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 1rem;
-        }
-
-        @media (max-width: 767px) {
-            [data-aos] {
-                opacity: 1 !important;
-                transform: none !important;
-                transition: none !important;
-            }
-        }
-    </style> -->
-
     <script>
-        (function(_0x42da,_0x1f74){const _0x4523=function(_0x16d9){while(--_0x16d9){_0x42da['push'](_0x42da['shift']());}};_0x4523(++_0x1f74);}(['\x63\x6F\x6E\x66\x69\x67','\x74\x61\x69\x6C\x77\x69\x6E\x64'],0x1b3));const _0x4523=function(_0x42da){return _0x42da;};tailwind[_0x4523('\x63\x6F\x6E\x66\x69\x67')]={theme:{extend:{colors:{"forest":"#39463A","dusty-rose":"#AB8A7A","slate-blue":"#73868A","earth-taupe":"#927C67","cream-light":"#E0D7C7","soft-bg":"#F6F2EE"},fontFamily:{serif:['Georgia','serif']}}}}
-    </script>
+    (function() {
+        // La configuración está codificada para evitar lectura directa
+        const _0xconfig = "dGFpbHdpbmQuY29uZmlnID0gewogICAgdGhlbWU6IHsKICAgICAgICBleHRlbmQ6IHsKICAgICAgICAgICAgY29sb3JzOiB7CiAgICAgICAgICAgICAgICAiZm9yZXN0IjogIiMzOTQ2M0EiLAogICAgICAgICAgICAgICAgImR1c3R5LXJvc2UiOiAiI0FCOEE3QSIsCiAgICAgICAgICAgICAgICAic2xhdGUtYmx1ZSI6ICIjNzM4NjhBIiwKICAgICAgICAgICAgICAgICJlYXJ0aC10YXVwZSI6ICIjOTI3QzY3IiwKICAgICAgICAgICAgICAgICJjcmVhbS1saWdodCI6ICIjRTBEM0M3IiwKICAgICAgICAgICAgICAgICJzb2Z0LWJnIjogIiNGNkYyRUUiLAogICAgICAgICAgICB9LAogICAgICAgICAgICBmYW50RmFtaWx5OiB7CiAgICAgICAgICAgICAgICBzZXJpZjogWydHZW9yZ2lhJywgJ3NlcmlmJ10sCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=";
+        const _0xscript = document.createElement('script');
+        _0xscript.textContent = atob(_0xconfig);
+        document.head.appendChild(_0xscript);
+    })();
+</script>
+ 
+    <script>
+(function(_0x1a2b){
+    const _0x3141 = document.createElement('style');
+    _0x3141.innerHTML = `html{scroll-behavior:smooth}.video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:1rem}@media(max-width:767px){[data-aos]{opacity:1!important;transform:none!important;transition:none!important}}`;
+    document.head.appendChild(_0x3141);
+})();
+</script>
 
-    <style>
-        html{scroll-behavior:smooth}.video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:1rem}img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none}@media (max-width:767px){[data-aos]{opacity:1!important;transform:none!important;transition:none!important}}
-    </style>
+  
 </head>
 
-<body class="overflow-x-hidden bg-soft-bg text-forest">
+<body class="overflow-x-hidden bg-soft-bg text-forest select-none">
 
     <a href="https://wa.link/vfhd75" target="_blank"
         class="fixed bottom-6 right-6 z-[60] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform text-2xl">
@@ -386,38 +349,11 @@
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script>
-        // Inicialización limpia
-        AOS.init({
-            duration: 800,
-            once: true,
-            // Usamos un string simple que AOS reconoce nativamente
-            disable: 'mobile'
-        });
 
-        const btn = document.getElementById("menu-btn");
-        const menu = document.getElementById("mobile-menu");
-        const icon = document.getElementById("menu-icon");
-
-        btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-            icon.textContent = menu.classList.contains("hidden") ? "☰" : "✕";
-        });
-
-        // Esto mejora mucho la carga percibida: 
-        // Al hacer clic en un enlace del menú, se cierra solo.
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                menu.classList.add('hidden');
-                icon.textContent = "☰";
-            });
-        });
-    </script> -->
     <script>
-        /* Bloqueo de copia básica e inicialización ofuscada */
-        document.addEventListener('contextmenu',e=>e.preventDefault());const _0x3e12=['\x69\x6E\x69\x74','\x63\x6C\x69\x63\x6B','\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64','\x6D\x65\x6E\x75\x2D\x62\x74\x6E','\x6D\x6F\x62\x69\x6C\x65\x2D\x6D\x65\x6E\x75','\x74\x6F\x67\x67\x6C\x65','\x68\x69\x64\x64\x65\x6E','\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C'];(function(_0x54af3d,_0x3e121a){const _0x4f2638=function(_0x16b093){while(--_0x16b093){_0x54af3d['push'](_0x54af3d['shift']());}};_0x4f2638(++_0x3e121a);}(_0x3e12,0x10d));const _0x4f26=function(_0x54af3d){return _0x3e12[_0x54af3d];};AOS[_0x4f26('0x0')]({duration:0x320,once:!![],disable:'\x6D\x6F\x62\x69\x6C\x65'});const b=document[_0x4f26('0x2')](_0x4f26('0x3')),m=document[_0x4f26('0x2')](_0x4f26('0x4')),i=document[_0x4f26('0x2')]('\x6D\x65\x6E\x75\x2D\x69\x63\x6F\x6E');b[_0x4f26('0x1')]('\x63\x6C\x69\x63\x6B',()=>{m['classList'][_0x4f26('0x5')](_0x4f26('0x6'));i['textContent']=m['classList']['contains'](_0x4f26('0x6'))?'\u2630':'\u2715';});document[_0x4f26('0x7')]('\x2E\x6D\x6F\x62\x69\x6C\x65\x2D\x6C\x69\x6E\x6B')['forEach'](_0x38d38b=>{_0x38d38b[_0x4f26('0x1')]('\x63\x6C\x69\x63\x6B',()=>{(m['classList']['add'](_0x4f26('0x6')),i['textContent']='\u2630');});});
-    </script>
+(function(_0x51c6,_0x3946){const _0x1a2b=document.createElement('script');_0x1a2b.src="https://unpkg.com/aos@2.3.1/dist/aos.js";_0x1a2b.onload=function(){AOS.init({duration:800,once:true,disable:'mobile'});const _0x4c21=document.getElementById("menu-btn"),_0x3e12=document.getElementById("mobile-menu"),_0x12f9=document.getElementById("menu-icon");_0x4c21.addEventListener("click",()=>{const _0x22a1=_0x3e12.classList.toggle("hidden");_0x12f9.textContent=_0x22a1?"☰":"✕";});document.querySelectorAll('#mobile-menu a').forEach(_0x5a12=>{_0x5a12.addEventListener('click',()=>{_0x3e12.classList.add('hidden');_0x12f9.textContent="☰";});});};document.head.appendChild(_0x1a2b);})();
+</script>
+  
 </body>
 
 </html>
