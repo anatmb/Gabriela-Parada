@@ -40,6 +40,7 @@
             document.write(_0x982[0]);
         })();
     </script>
+
 </head>
 
 <body class="overflow-x-hidden bg-soft-bg text-forest select-none">
@@ -378,6 +379,18 @@
     <script>
         (function (_0x51c6, _0x3946) { const _0x1a2b = document.createElement('script'); _0x1a2b.src = "https://unpkg.com/aos@2.3.1/dist/aos.js"; _0x1a2b.onload = function () { AOS.init({ duration: 800, once: true, disable: 'mobile' }); const _0x4c21 = document.getElementById("menu-btn"), _0x3e12 = document.getElementById("mobile-menu"), _0x12f9 = document.getElementById("menu-icon"); _0x4c21.addEventListener("click", () => { const _0x22a1 = _0x3e12.classList.toggle("hidden"); _0x12f9.textContent = _0x22a1 ? "☰" : "✕"; }); document.querySelectorAll('#mobile-menu a').forEach(_0x5a12 => { _0x5a12.addEventListener('click', () => { _0x3e12.classList.add('hidden'); _0x12f9.textContent = "☰"; }); }); }; document.head.appendChild(_0x1a2b); })();
     </script>
+
+    <script>
+    // Deshabilitar click derecho
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // Deshabilitar teclas de atajo comunes (F12, Ctrl+U, Ctrl+Shift+I)
+    document.onkeydown = function(e) {
+        if(e.keyCode == 123 || (e.ctrlKey && (e.keyCode == 85 || e.keyCode == 73 || e.keyCode == 83))) {
+            return false;
+        }
+    };
+</script>
 
 </body>
 
